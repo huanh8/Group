@@ -6,8 +6,8 @@ namespace GroupC
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine("Hello Group!!")
+            Console.WriteLine("Hello boys.Are you hungry?");
+            Console.WriteLine("Hello Group!!");
             Console.ReadLine();
         }
     }
