@@ -10,6 +10,31 @@ namespace GroupC
             Console.WriteLine("Hello World Welcome!");
             Console.WriteLine("Hello Group!!");
             Console.ReadLine();
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+            Console.WriteLine("Doing my stuff here");
+            Console.ReadLine();
         }
     }
 }
