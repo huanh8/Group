@@ -23,7 +23,8 @@ namespace GroupC
             if()9kdljligjg
 
 
-
+            console.WriteLine("Doing my stuff");
+            Console.ReadLine();
         }
     }
 }
