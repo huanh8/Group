@@ -17,10 +17,16 @@ namespace GroupC
         //swap 2 numbers
         public static void swap(int num1, int num2)
         {
+            Console.Clear();
             int temp;
+            Console.WriteLine("number 1 " + num1 + "  number 2 " + num2);
             temp = num1;
             num1 = num2;
             num2 = temp;
+            Console.WriteLine("number 1 " + num1 + "  number 2 " + num2);
+
+            Console.WriteLine("Press any key to continue");
+            Console.ReadLine();
         }
         //method3
         static void method3()
@@ -39,6 +45,7 @@ namespace GroupC
 
         static void Main(string[] args)
         {
+
             int selection;
             string[] title = { "method1", "method2", "method3", "Exit" };
             do
@@ -61,7 +68,9 @@ namespace GroupC
                         break;
 
                     case 2:
-                        method2();
+                        int num1 = 15;
+                        int num2 = 30;
+                        swap(num1, num2);
                         break;
 
                     case 3:
