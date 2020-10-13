@@ -13,13 +13,13 @@ namespace GroupC
         
         
         }
-        //method2
-        static void method2()
+        //swap 2 numbers
+        public static void swap(int num1, int num2)
         {
-
-
-
-
+            int temp;
+            temp = num1;
+            num1 = num2;
+            num2 = temp;
         }
         //method3
         static void method3()
