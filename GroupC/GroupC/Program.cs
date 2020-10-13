@@ -8,11 +8,25 @@ namespace GroupC
 
         //method1
         static void method1()
-        { 
-        
-        
-        
-        
+        {
+            int num1,num2, newNumber;
+            string temp;
+
+            Console.Clear();
+            Console.WriteLine("Enter a number");
+            num1 = Convert.ToInt32(Console.ReadLine());
+
+            Console.WriteLine("Enter another number");
+            num2 = Convert.ToInt32(Console.ReadLine());
+
+            newNumber = num1 + num2;
+
+            Console.WriteLine($"Your new number is {newNumber}");
+            Console.WriteLine("Press any key to continue");
+            Console.ReadLine();
+
+
+
         }
         //swap 2 numbers
         public static void swap(int num1, int num2)
